@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Main content */}
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <h1 className="text-6xl md:text-8xl font-black mb-6 text-white drop-shadow-2xl">
-          Hi, I'm <span className="bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 bg-clip-text text-transparent animate-pulse">
+          Hi, I&apos;m <span className="bg-gradient-to-r from-yellow-300 via-red-300 to-pink-300 bg-clip-text text-transparent animate-pulse">
             Scott Lennartz
           </span>
         </h1>

@@ -37,7 +37,7 @@ export default function Contact() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-7xl font-black mb-4 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
-            Let's Connect!
+            Let&apos;s Connect!
           </h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
             Have a project in mind or just want to chat? Drop me a message!
@@ -130,9 +130,9 @@ export default function Contact() {
 
             {/* Quick Info */}
             <div className="bg-gradient-to-br from-yellow-400 via-pink-400 to-purple-400 p-8 rounded-3xl shadow-2xl text-white">
-              <h3 className="text-3xl font-bold mb-4">Let's Create Something Amazing!</h3>
+              <h3 className="text-3xl font-bold mb-4">Let&apos;s Create Something Amazing!</h3>
               <p className="text-lg mb-4">
-                I'm always excited to work on new projects and collaborate with creative minds.
+                I&apos;m always excited to work on new projects and collaborate with creative minds.
               </p>
               <p className="text-lg font-bold">
                 Response time: Usually within 24 hours ⚡

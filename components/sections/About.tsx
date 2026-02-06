@@ -29,7 +29,7 @@ export default function About() {
                 Hello! 👋
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                I'm a passionate developer and designer who loves creating digital experiences
+                I&apos;m a passionate developer and designer who loves creating digital experiences
                 that are not just functional, but memorable and exciting.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
@@ -37,7 +37,7 @@ export default function About() {
                 I bring ideas to life with vibrant colors and smooth interactions.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                When I'm not coding, you'll find me exploring new design trends,
+                When I&apos;m not coding, you&apos;ll find me exploring new design trends,
                 experimenting with creative projects, or seeking inspiration in the world around me.
               </p>
             </div>
