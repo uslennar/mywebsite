@@ -4,7 +4,7 @@
 This is a personal portfolio website built to showcase work, skills, and experience.
 - **Purpose**: Personal branding and professional presence
 - **Target Audience**: Potential employers, clients, and professional network
-- **Design Philosophy**: Bold & colorful aesthetic with eye-catching elements
+- **Design Philosophy**: Modern, minimal aesthetic with clean lines and subtle elegance
 
 ## Tech Stack
 - **Framework**: Next.js 15+ (App Router)
@@ -17,23 +17,25 @@ This is a personal portfolio website built to showcase work, skills, and experie
 ## Design Preferences
 
 ### Visual Style
-- Bold, vibrant color palette
-- Eye-catching animations and transitions
-- Energetic and modern feel
-- Strong typography choices
-- Engaging visual hierarchy
+- Clean, minimal design with lots of whitespace
+- Subtle, refined animations and transitions
+- Professional and elegant feel
+- Typography-focused with careful hierarchy
+- Sophisticated visual presentation
 
 ### Color Approach
-- Use bright, contrasting colors
-- Create visual interest with gradients
+- Neutral color palette (grays, blacks, whites)
+- Single accent color for highlights (blue or similar)
+- Subtle gradients where appropriate
 - Ensure accessibility (WCAG AA minimum)
-- Consider a signature color scheme
+- Focus on contrast and readability
 
 ### Components
 - Prefer custom components over pre-built UI libraries
 - Use Tailwind's utility classes extensively
-- Implement smooth animations (Framer Motion recommended)
+- Implement subtle, refined animations
 - Responsive design is mandatory (mobile-first approach)
+- Emphasize clean layouts and generous spacing
 
 ## Project Structure
 ```
