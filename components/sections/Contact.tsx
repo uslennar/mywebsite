@@ -25,10 +25,9 @@ export default function Contact() {
   };
 
   const socialLinks = [
-    { name: "GitHub", url: "#" },
-    { name: "LinkedIn", url: "#" },
-    { name: "Twitter", url: "#" },
-    { name: "Email", url: "mailto:your@email.com" },
+    { name: "GitHub", url: "https://github.com/uslennar" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/lennartz/" },
+    { name: "Email", url: "mailto:uslennar@gmail.com" },
   ];
 
   return (

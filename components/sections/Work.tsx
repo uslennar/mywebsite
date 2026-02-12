@@ -1,39 +1,27 @@
 export default function Work() {
   const projects = [
     {
-      title: "Project One",
+      title: "Cisco",
       description: "A modern e-commerce platform with seamless checkout experience and elegant design.",
       tags: ["Next.js", "React", "Stripe"],
       year: "2024",
     },
     {
-      title: "Project Two",
+      title: "Yoga Bhoga",
       description: "An interactive portfolio showcase featuring smooth transitions and clean layouts.",
       tags: ["React", "TypeScript", "CSS"],
       year: "2024",
     },
     {
-      title: "Project Three",
+      title: "Voicebox",
       description: "A productivity app with real-time collaboration and intuitive UI design.",
       tags: ["TypeScript", "Firebase", "Tailwind"],
       year: "2023",
     },
     {
-      title: "Project Four",
+      title: "Vacatia",
       description: "A social media dashboard with data visualization and responsive design.",
       tags: ["Next.js", "Chart.js", "API"],
-      year: "2023",
-    },
-    {
-      title: "Project Five",
-      description: "A creative agency website with refined animations and elegant typography.",
-      tags: ["React", "Framer", "Tailwind"],
-      year: "2023",
-    },
-    {
-      title: "Project Six",
-      description: "A mobile-first fitness tracking app with clean interface and smooth UX.",
-      tags: ["React Native", "Node.js", "MongoDB"],
       year: "2023",
     },
   ];
