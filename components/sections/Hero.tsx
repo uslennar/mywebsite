@@ -10,31 +10,25 @@ export default function Hero() {
       <div className="relative z-10 px-4 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text content */}
         <div>
-          <div className="mb-6">
-            <span className="text-sm font-medium text-gray-500 tracking-widest uppercase">
-              Portfolio
-            </span>
-          </div>
-
           <h1 className="text-5xl md:text-7xl font-light mb-6 text-gray-900 tracking-tight">
             Scott Lennartz
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-600 font-light mb-4">
-            Creative Developer & Designer
+            Technology & Product Executive
           </p>
 
           <p className="text-base md:text-lg text-gray-500 mb-12 leading-relaxed">
-            Building elegant digital experiences with modern web technologies
+            20+ years of experience scaling organizations — from early-stage startups to enterprise.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="#work"
+              href="#about"
               className="px-8 py-3 bg-gray-900 text-white font-medium text-sm rounded-md hover:bg-gray-800 transition-colors duration-200"
             >
-              View Work
+              About Me
             </a>
             <a
               href="#contact"
