@@ -9,6 +9,9 @@ const expertise = [
   "Innovation",
   "Board Advisory",
   "Entrepreneurship",
+  "Digital Transformation",
+  "AI",
+  "Software Development",
 ];
 
 const highlights: { label: string; detail: string; icon: ReactNode }[] = [
