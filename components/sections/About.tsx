@@ -1,15 +1,34 @@
-export default function About() {
-  const skills = [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "UI/UX Design",
-    "JavaScript",
-    "Git",
-  ];
+const expertise = [
+  "Product Strategy",
+  "Technology Leadership",
+  "Organizational Scaling",
+  "Team Building",
+  "Executive Leadership",
+  "Innovation",
+  "Board Advisory",
+  "Entrepreneurship",
+];
 
+const highlights = [
+  {
+    label: "Pioneer Award",
+    detail: "Cisco, 2003 — premier recognition of engineering innovation",
+  },
+  {
+    label: "2 Issued Patents",
+    detail: "Network communications & anticipatory processing systems",
+  },
+  {
+    label: "Board Experience",
+    detail: "Doublesharp, Inc. · Entrepreneurs' Organization",
+  },
+  {
+    label: "20+ Years",
+    detail: "Scaling technology organizations from startup to enterprise",
+  },
+];
+
+export default function About() {
   return (
     <section id="about" className="min-h-screen bg-gray-50 py-24 px-4">
       <div className="max-w-6xl mx-auto">
@@ -21,46 +40,55 @@ export default function About() {
           <div className="w-12 h-px bg-gray-300 mt-4"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-16 items-start mb-20">
-          {/* Bio */}
-          <div>
-            <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-8">
-              Hello
-            </h2>
-            <div className="space-y-6 text-gray-600 leading-relaxed">
-              <p>
-                I&apos;m a passionate developer and designer who loves creating digital experiences
-                that are not just functional, but memorable and impactful.
-              </p>
-              <p>
-                With a keen eye for design and a deep understanding of modern web technologies,
-                I bring ideas to life with clean code and elegant interfaces.
-              </p>
-              <p>
-                When I&apos;m not coding, you&apos;ll find me exploring new design trends,
-                experimenting with creative projects, or seeking inspiration in the world around me.
-              </p>
-            </div>
-          </div>
-
-          {/* Profile Image Placeholder */}
-          <div className="flex justify-center md:justify-end">
-            <div className="w-80 h-80 bg-gray-200 rounded-lg"></div>
+        {/* Bio */}
+        <div className="max-w-3xl mb-20">
+          <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-8">
+            Technology & Product Executive
+          </h2>
+          <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
+            <p>
+              I&apos;m a technology and product executive with 20+ years of experience scaling
+              organizations — navigating the creative chaos of rapid growth while building
+              and empowering high-performing teams.
+            </p>
+            <p>
+              My background spans engineering, product, and executive leadership across
+              companies from early-stage startups to enterprise. I bring a rare combination
+              of deep technical expertise and strategic vision, with a track record of
+              driving innovation and building durable, high-impact organizations.
+            </p>
+            <p>
+              Based in Portland, Oregon.
+            </p>
           </div>
         </div>
 
-        {/* Skills */}
+        {/* Highlights */}
+        <div className="mb-20">
+          <h3 className="text-2xl font-light text-gray-900 mb-8">Highlights</h3>
+          <div className="grid sm:grid-cols-2 gap-6">
+            {highlights.map((item, index) => (
+              <div
+                key={index}
+                className="px-6 py-6 bg-white border border-gray-200 rounded-md hover:border-gray-400 transition-colors duration-200"
+              >
+                <p className="text-gray-900 font-medium mb-1">{item.label}</p>
+                <p className="text-gray-500 text-sm">{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Areas of Expertise */}
         <div>
-          <h3 className="text-2xl font-light text-gray-900 mb-8">
-            Skills & Technologies
-          </h3>
+          <h3 className="text-2xl font-light text-gray-900 mb-8">Areas of Expertise</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {skills.map((skill, index) => (
+            {expertise.map((item, index) => (
               <div
                 key={index}
                 className="px-6 py-4 bg-white border border-gray-200 rounded-md text-center hover:border-gray-900 transition-colors duration-200"
               >
-                <p className="text-gray-900 font-medium text-sm">{skill}</p>
+                <p className="text-gray-900 font-medium text-sm">{item}</p>
               </div>
             ))}
           </div>
